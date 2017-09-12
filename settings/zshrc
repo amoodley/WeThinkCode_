@@ -1,6 +1,7 @@
 # Alias
 alias 42filechecker="sh ~/42FileChecker/42FileChecker.sh"
 alias sublime='open -a "sublime Text"'
+alias norm="python <(curl -s https://raw.githubusercontent.com/AnActualBridge/pynorm/master/pynorm.py)"
 
 # Color Scheme
 blue=%F{39}
