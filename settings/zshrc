@@ -1,0 +1,19 @@
+# Alias
+alias 42filechecker="sh ~/42FileChecker/42FileChecker.sh"
+alias sublime='open -a "sublime Text"'
+
+# Color Scheme
+blue=%F{39}
+purple=%F{98}
+green=%F{120}
+reset=%F{default}
+
+# Terminal Prompt
+PS1=$'\n' # Newline
+PS1+="$blue%n" # Username
+PS1+="$reset @ " # @
+PS1+="$purple%m" # Hostname
+PS1+="$reset in " # in
+PS1+="$green./%1d" # working directory (short)
+PS1+="$reset"$'\n'"☯ " # Newline & Prompt
+export PS1;
