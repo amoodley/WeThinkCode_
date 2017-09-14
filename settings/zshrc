@@ -2,6 +2,8 @@
 alias 42filechecker="sh ~/42FileChecker/42FileChecker.sh"
 alias sublime='open -a "sublime Text"'
 alias norm="python <(curl -s https://raw.githubusercontent.com/AnActualBridge/pynorm/master/pynorm.py)"
+alias PlugInstall="curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
 
 # Color Scheme
 blue=%F{39}
