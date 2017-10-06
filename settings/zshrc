@@ -4,6 +4,11 @@ alias sublime='open -a "sublime Text"'
 alias norm="python <(curl -s https://raw.githubusercontent.com/AnActualBridge/pynorm/master/pynorm.py)"
 alias PlugInstall="curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+alias FontInstall="	git clone https://github.com/powerline/fonts.git --depth=1
+					cd fonts
+					./install.sh
+					cd ..
+					rm -rf fonts"
 
 # Color Scheme
 blue=%F{39}
