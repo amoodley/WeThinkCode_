@@ -1,4 +1,5 @@
 # Alias
+alias FileCheckerInstall="git clone https://github.com/jgigault/42FileChecker ~/42FileChecker"
 alias 42filechecker="sh ~/42FileChecker/42FileChecker.sh"
 alias sublime='open -a "sublime Text"'
 alias norm="python <(curl -s https://raw.githubusercontent.com/AnActualBridge/pynorm/master/pynorm.py)"
@@ -9,6 +10,7 @@ alias FontInstall="	git clone https://github.com/powerline/fonts.git --depth=1
 					./install.sh
 					cd ..
 					rm -rf fonts"
+alias BrewInstall='sh -c "$(curl -fsSL https://raw.githubusercontent.com/wethinkcode/homebrew/master/install.sh)"'
 
 # Color Scheme
 blue=%F{39}
